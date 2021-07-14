@@ -5,5 +5,15 @@
   "main": "index.js",
   "repository": "git@github.com:limengke123/mkTemplate.git",
   "author": "李梦克 <limengke@youzan.com>",
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "@types/jest": "^26.0.24",
+    "@types/node": "^16.3.2",
+    "conventional-changelog-cli": "^2.1.1",
+    "eslint": "^7.30.0",
+    "jest": "^27.0.6",
+    "ts-jest": "^27.0.3",
+    "ts-node": "^10.1.0",
+    "typescript": "^4.3.5"
+  }
 }
