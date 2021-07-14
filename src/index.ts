@@ -1,3 +1,3 @@
-export const hello = (word: string = 'world') => console.log(word)
+export const hello = (word: string = 'world') => `hello ${word}`
 
 
