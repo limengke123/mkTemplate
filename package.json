@@ -1,0 +1,9 @@
+{
+  "name": "mkTemplate",
+  "version": "1.0.0",
+  "description": "基本的项目配置模板",
+  "main": "index.js",
+  "repository": "git@github.com:limengke123/mkTemplate.git",
+  "author": "李梦克 <limengke@youzan.com>",
+  "license": "MIT"
+}
