@@ -1,5 +1,5 @@
 {
-  "name": "@lmk/base-proj",
+  "name": "@vaki/base-proj",
   "version": "1.0.1-beta.3",
   "description": "基本的项目配置模板",
   "main": "index.js",
