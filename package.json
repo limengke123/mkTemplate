@@ -12,7 +12,7 @@
     "changelog": "conventional-changelog -p angular -i CHANGELOG.md -s -r 0",
     "dev": "tsc --watch",
     "build": "rimraf ./lib && tsc",
-    "preversion": "yarn test",
+    "preversion": "yarn test && yarn changelog",
     "postversion": "git push --tags && yarn publish . --tag $npm_package_version --access public && git push && echo \"Successfully released version $npm_package_version!\""
   },
   "devDependencies": {

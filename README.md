@@ -13,6 +13,9 @@
 
 ### yarn version
 
+// 个人scope
 yarn publish --access public
 
-### release.sh
+// 无scope
+yarn publish
+
