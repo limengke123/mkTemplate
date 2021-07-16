@@ -13,6 +13,16 @@
 
 ### yarn version
 
+yarn version --patch
+
+yarn version --minor
+
+yarn version --major
+
+preversion，postversion钩子方法，执行前置处理、后置发布流程处理。
+
+需要注意：
+
 // 个人scope
 yarn publish --access public
 
