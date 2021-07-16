@@ -17,9 +17,9 @@ then
   echo "start -1 "
   git commit -am "[release] $VERSION"
 
-  echo "start -1 "
+  echo "start -2 "
   git push origin $BRANCH
-  echo "start -1 "
+  echo "start -3 "
   if [ $BRANCH == 'master' ]
   then
     echo "Add tag v$VERSION"
