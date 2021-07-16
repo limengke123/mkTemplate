@@ -14,7 +14,6 @@ then
   # publish
   BRANCH=$(git symbolic-ref --short HEAD)
 
-  git tag v$VERSION
   git commit -am "[release] $VERSION"
 
   git push origin $BRANCH
@@ -23,6 +22,7 @@ then
     echo "Add tag v$VERSION"
     git push origin refs/tags/v$VERSION
   fi
+  echo "end"
 #
 #  if [[ $VERSION =~ [beta] ]]
 #  then
