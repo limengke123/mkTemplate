@@ -14,9 +14,12 @@ then
   # publish
   BRANCH=$(git symbolic-ref --short HEAD)
 
+  echo "start -1 "
   git commit -am "[release] $VERSION"
 
+  echo "start -1 "
   git push origin $BRANCH
+  echo "start -1 "
   if [ $BRANCH == 'master' ]
   then
     echo "Add tag v$VERSION"
