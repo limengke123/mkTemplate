@@ -1,3 +1,12 @@
+## [1.0.4-0](https://github.com/limengke123/mkTemplate/compare/v1.0.3...v1.0.4-0) (2021-07-16)
+
+
+### Features
+
+* 增加changelog ([27511a8](https://github.com/limengke123/mkTemplate/commit/27511a8a2e3466ca5a126690d76194bc959928a8))
+
+
+
 ## [1.0.3](https://github.com/limengke123/mkTemplate/compare/v1.0.2...v1.0.3) (2021-07-16)
 
 
