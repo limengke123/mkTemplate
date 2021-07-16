@@ -8,3 +8,11 @@
 - [x] 自动changelog
 - [ ] eslint
 - [ ] typescript
+
+## 发布
+
+### yarn version
+
+yarn publish --access public
+
+### release.sh

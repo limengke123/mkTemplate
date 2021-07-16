@@ -23,14 +23,14 @@ then
     echo "Add tag v$VERSION"
     git push origin refs/tags/v$VERSION
   fi
-
-  if [[ $VERSION =~ [beta] ]]
-  then
-    npm publish --registry=http://registry.npm.qima-inc.com --tag beta
-  elif [[ $VERSION =~ [rc] ]]
-  then
-    npm publish --registry=http://registry.npm.qima-inc.com --tag release
-  else
-    npm publish --registry=http://registry.npm.qima-inc.com
-  fi
+#
+#  if [[ $VERSION =~ [beta] ]]
+#  then
+#    npm publish --registry=http://registry.npm.qima-inc.com --tag beta
+#  elif [[ $VERSION =~ [rc] ]]
+#  then
+#    npm publish --registry=http://registry.npm.qima-inc.com --tag release
+#  else
+#    npm publish --registry=http://registry.npm.qima-inc.com
+#  fi
 fi
