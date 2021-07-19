@@ -1,3 +1,4 @@
-export const hello = (word: string = 'world') => `hello ${word}`
+export const hello = (word = 'world') => `hello ${word}`
+
 
 
